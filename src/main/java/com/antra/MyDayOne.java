@@ -55,9 +55,5 @@ public class MyDayOne {
         Integer g = 66;
         System.out.println(f == g); // true, cause Integer size is -128 ~ 127.
 
-
-//
-        //
-        //
     }
 }
