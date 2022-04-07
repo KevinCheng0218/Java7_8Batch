@@ -70,3 +70,5 @@ It’s process by Java perform automatic memory management and finds these unuse
 5. Z GC
   - It's a scalable low-latency garbage collector which debuted in Java 11 as an experimental option for Linux. ZGC performs all expensive work concurrently, without stopping the execution of application threads for more than 10 ms.which makes it suitable for applications that require low latency.
 
+###### _Reference_
+[GeeksforGeeks](https://www.geeksforgeeks.org/garbage-collection-java/?ref=lbp)
