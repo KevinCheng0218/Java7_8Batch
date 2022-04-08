@@ -53,7 +53,64 @@
 
 ### 13.Write a program to implement the following activity diagram:
 ### 14.Write a program to merge two array of int.
+```
+public class mergeTwoArrayOfInt {
+    public static void main(String[] args) {
+        int []a=new int[(int)(Math.random()*3+3)];
+        int []b=new int[(int)(Math.random()*3+3)];
+
+        System.out.println("a Array:");
+        for (int i=0;i<a.length;i++) {
+            a[i] = (int) (Math.random() * 100);
+            System.out.println(a[i]);
+        }
+            System.out.println("b Array:");
+            for (int j=0;j<b.length;j++){
+                b[j]=(int)(Math.random()*100);
+                System.out.println(b[j]);
+            }
+        System.out.println("a merged b: ");
+        int []c=new int[a.length+b.length];
+        System.arraycopy(a,0,c,0,a.length);
+        System.arraycopy(b,0,c,a.length,b.length);
+        for ( int each : c){
+            System.out.print(each+" ");
+        }
+    }
+}
+
+```
+
 ### 15.Write a program to find the second largest number inside an array of int.
+```
+import java.util.Arrays;
+
+public class secondLargestNumber {
+    public static void main(String[] args) {
+
+        int firMax = 0;
+        int secMax = 0;
+        int[] a = new int[] {87,10,54,14,77,23};
+        Arrays.sort(a);
+        System.out.println(Arrays.toString(a));
+
+        for (int i=0,len=a.length; i<len; i++) {
+            if (a[i] > firMax) {
+                secMax = firMax;
+                firMax = a[i];
+
+                continue;
+            }
+
+            if (a[i] > secMax && a[i] != firMax) {
+                secMax = a[i];
+            }
+        }
+        System.out.println("Second large number: " + secMax);
+    }
+}
+```
+
 
 ###### _Reference_
 [GeeksforGeeks](https://www.geeksforgeeks.org/java/?ref=shm)
