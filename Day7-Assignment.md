@@ -55,3 +55,7 @@ By storing data in-memory they can read data more quickly than disk based databa
 Amazon ElastiCache makes it easy to set up, manage, and scale distributed in-memory cache environments in the AWS Cloud. It provides a high performance, resizable, and cost-effective in-memory cache while removing the complexity associated with deploying and managing a distributed cache environment. ElastiCache works with both the Redis and Memcached engines.
 
 ![image](https://user-images.githubusercontent.com/102642989/162381960-c7f52484-c6f7-4901-a683-e81f1018d676.png)
+
+###### _Reference_
+[Amazon memcached vs redis](https://aws.amazon.com/elasticache/redis-vs-memcached/)
+[Amazon Elastic Cache](https://aws.amazon.com/elasticache/?trk=b06167e1-43fa-471a-8705-6a37423dd3e1&sc_channel=ps&sc_campaign=acquisition&sc_medium=ACQ-P|PS-GO|Non-Brand|Desktop|SU|Database|Solution|US|EN|DSA&ef_id=CjwKCAjwur-SBhB6EiwA5sKtjktOtUADhH_tSPhDL9lbBE6ScI4Mp3eyPvtOhlaBH-r33eIQFbrsihoCuJAQAvD_BwE:G:s&s_kwcid=AL!4422!3!587945177034!!!g!!)
