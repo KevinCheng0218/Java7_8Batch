@@ -78,7 +78,6 @@ public class mergeTwoArrayOfInt {
         }
     }
 }
-
 ```
 
 ### 15.Write a program to find the second largest number inside an array of int.
